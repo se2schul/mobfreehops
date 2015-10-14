@@ -296,19 +296,19 @@ sub generateWinners() {
   genWinArray($maxNugget, \%nuggetHash, \%winNugget);
 
   print "===========================================\n";
-  print "Centennial\n";
+  print "Centennial: choose $maxCentennial\n";
   print "===========================================\n";
   print Dumper(\%winCentennial);
   print "===========================================\n";
-  print "Palisade\n";
+  print "Palisade: choose $maxPalisade\n";
   print "===========================================\n";
   print Dumper(\%winPalisade);
   print "===========================================\n";
-  print "Polaris\n";
+  print "Polaris: choose $maxPolaris\n";
   print "===========================================\n";
   print Dumper(\%winPolaris);
   print "===========================================\n";
-  print "Nugget\n";
+  print "Nugget: choose $maxNugget\n";
   print "===========================================\n";
   print Dumper(\%winNugget);
 }
